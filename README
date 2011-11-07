@@ -1,0 +1,11 @@
+Tumblr-likefeed, a PHP script to consume Tumblr's XML api and produce a usable XML feed.
+
+by Luka Kladaric, allixsenos@gmail.com
+https://github.com/allixsenos/tumblr-likefeed
+ 
+This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a
+letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+
+I strongly suggest using this with FeedBurner or some other proxy-throttling service as this script does no caching and will re-retrieve the XML feed from Tumblr on each execution.
